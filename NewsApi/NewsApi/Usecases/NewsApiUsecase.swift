@@ -35,7 +35,7 @@ class NewsApiUsecase {
                                         
                                         forPreExecution()
                                         
-                                        if self.lastSearchKeyword.lowercased() == keyword {
+                                        if self.lastSearchKeyword.lowercased() == keyword.lowercased() {
                                             return (self.paginationUtil?.fetchNextPage() ?? Promise<NewsApiResponse>(error: ServiceError<CustomError>.other))
                                         } else {
                                             self.lastSearchKeyword = keyword
