@@ -1,0 +1,32 @@
+PODS:
+  - PromiseKit (6.7.1):
+    - PromiseKit/CorePromise (= 6.7.1)
+    - PromiseKit/Foundation (= 6.7.1)
+    - PromiseKit/UIKit (= 6.7.1)
+  - PromiseKit/CorePromise (6.7.1)
+  - PromiseKit/Foundation (6.7.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.7.1):
+    - PromiseKit/CorePromise
+  - RxSwift (4.3.1)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - PromiseKit
+  - RxSwift (= 4.3.1)
+  - SVProgressHUD
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PromiseKit
+    - RxSwift
+    - SVProgressHUD
+
+SPEC CHECKSUMS:
+  PromiseKit: ef376fb8b4e92edfeb66bd403b983eaa07fbde0c
+  RxSwift: fe0fd770a43acdb7d0a53da411c9b892e69bb6e4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 4920c4a220b6603f8744cbdc206a7916fe1ea105
+
+COCOAPODS: 1.5.3
